@@ -4,8 +4,8 @@
 
 Claro, aquí te dejo un pseudocódigo para que puedas implementar el juego en <strong>Python</strong>:
 
-Generar un número aleatorio entre 1 y 100.
-Pedir al usuario que adivine el número.
+- [Generar un número aleatorio entre 1 y 100.]
+- [Pedir al usuario que adivine el número.]
 - [Si el número adivinado es igual al número generado, mostrar un mensaje de felicitación y terminar el juego.]
 - [Si el número adivinado es menor que el número generado, mostrar un mensaje indicando que el número es menor y restar un intento.]
 - [Si el número adivinado es mayor que el número generado, mostrar un mensaje indicando que el número es mayor y restar un intento.]
