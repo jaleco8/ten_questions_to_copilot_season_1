@@ -12,4 +12,15 @@
 
 ### [**Pregunta 03**](./03%20-%20Pregunta/) Haz un programa que valide mediante las principales y más usadas expresiones regular en Javascript
 
-[Ir a la Pregunta 03](./03%20-%20Pregunta/) - [Código en Javascript](./02%20-%20Pregunta/question_3.js)
+[Ir a la Pregunta 03](./03%20-%20Pregunta/) - [Código en Javascript](./03%20-%20Pregunta/question_3.js)
+
+### [**Pregunta 04**](./04%20-%20Pregunta/) ¿Cómo puedo evitar la inyección SQL en Java?
+
+[Ir a la Pregunta 04](./04%20-%20Pregunta/) - [Código en Java](./04%20-%20Pregunta/question_4.java)
+
+> Esta Pregunta ameritaba que lo vieramos en varios lenguajes
+ - [Código en PHP](./04%20-%20Pregunta/question_4.php) 
+ - [Código en Phyton](./04%20-%20Pregunta/question_4.py) 
+ - [Código en C++](./04%20-%20Pregunta/question_4.cpp) 
+ - [Código en Go](./04%20-%20Pregunta/question_4.go) 
+ - [Código en Node](./04%20-%20Pregunta/question_4.js)
