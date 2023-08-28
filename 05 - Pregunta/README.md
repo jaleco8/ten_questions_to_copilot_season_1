@@ -4,9 +4,9 @@
 
 Para usar async/await con Array.map en TypeScript, puedes hacer lo siguiente:
 
-Define una función async que realizará la operación que deseas en cada elemento del array.
-Usa Array.map para crear un nuevo array con los resultados de la función async.
-Usa Promise.all para esperar a que todas las promesas se resuelvan.
+1. Define una función async que realizará la operación que deseas en cada elemento del array.
+2. Usa Array.map para crear un nuevo array con los resultados de la función async.
+3. Usa Promise.all para esperar a que todas las promesas se resuelvan.
 
 ### Aquí te dejo un ejemplo de cómo hacerlo:
 
