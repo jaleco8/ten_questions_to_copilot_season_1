@@ -24,3 +24,7 @@
  - [Código en C++](./04%20-%20Pregunta/question_4.cpp) 
  - [Código en Go](./04%20-%20Pregunta/question_4.go) 
  - [Código en Node](./04%20-%20Pregunta/question_4.js)
+
+ ### [**Pregunta 05**](./05%20-%20Pregunta/) ¿Cómo usar async await con Array.map en TypeScript?
+
+[Ir a la Pregunta 05](./05%20-%20Pregunta/) - [Código en TypeScript](./05%20-%20Pregunta/question_5.ts)
