@@ -31,7 +31,7 @@
 
 ### [**Pregunta 06**](./06%20-%20Pregunta/) Basado en material design crea el css para las siguientes etiquetas: body, h1 h6, div, li, p... primary color #05F26C y secondary color #60BF89
 
-[Ir a la Pregunta 06](./06%20-%20Pregunta/) - [Código en TypeScript](./06%20-%20Pregunta/question_6.css)
+[Ir a la Pregunta 06](./06%20-%20Pregunta/) - [Código en Css](./06%20-%20Pregunta/question_6.css)
 
 > Si consideras útil esta información, apóyalo haciendo "★ Star" en el repositorio. ¡Gracias 🙌!
 
