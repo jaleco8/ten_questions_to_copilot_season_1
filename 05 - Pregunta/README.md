@@ -2,37 +2,37 @@
 
 ## GitHub Copilot
 
-Para usar <strong>async/await</strong> con <strong>Array.map</strong> en <strong>TypeScript</strong>, puedes hacer lo siguiente:
+Para usar async/await con Array.map en TypeScript, puedes hacer lo siguiente:
 
-1. Define una función <strong>async</strong> que realizará la operación que deseas en cada elemento del array.
-2. Usa <strong>Array.map</strong> para crear un nuevo array con los resultados de la función async.
-3. Usa <strong>Promise.all</strong> para esperar a que todas las promesas se resuelvan.
+1. Define una función async que realizará la operación que deseas en cada elemento del array.
+2. Usa Array.map para crear un nuevo array con los resultados de la función async.
+3. Usa Promise.all para esperar a que todas las promesas se resuelvan.
 
 ### Aquí te dejo un ejemplo de cómo hacerlo:
 
 ![](./snippets/asyncAwaitArrayMap.png)
 
-En este ejemplo, la función <strong>asyncOperation</strong> realiza una operación simple de multiplicar el elemento por 2. Luego, en la función <strong>main</strong>, usamos <strong>Array.map</strong> para crear un nuevo array con los resultados de la función <strong>asyncOperation</strong>. Finalmente, usamos <strong>Promise.all</strong> para esperar a que todas las promesas se resuelvan y obtenemos el resultado final.
+En este ejemplo, la función asyncOperation realiza una operación simple de multiplicar el elemento por 2. Luego, en la función main, usamos Array.map para crear un nuevo array con los resultados de la función asyncOperation. Finalmente, usamos Promise.all para esperar a que todas las promesas se resuelvan y obtenemos el resultado final.
 
 ### Como puedo manejar los errores cuando estoy usando async/await con Array.map en TypeScript
 
-Para manejar los errores cuando estás usando <strong>async/await</strong> con <strong>Array.map</strong> en <strong>TypeScript</strong>, puedes envolver el código dentro de un bloque <strong>try/catch</strong>. De esta manera, puedes capturar cualquier error que se produzca durante la ejecución de la función asíncrona y manejarlo de forma adecuada.
+Para manejar los errores cuando estás usando async/await con Array.map en TypeScript, puedes envolver el código dentro de un bloque try/catch. De esta manera, puedes capturar cualquier error que se produzca durante la ejecución de la función asíncrona y manejarlo de forma adecuada.
 
 ### Aquí te dejo un ejemplo de cómo hacerlo:
 
 ![](./snippets/asyncAwaitArrayMap2.png)
 
-En este ejemplo, envolvemos el código dentro de un bloque <strong>try/catch</strong> tanto en la función <strong>asyncOperation</strong> como en la función <strong>main</strong>. En la función <strong>asyncOperation</strong>, capturamos cualquier error que se produzca durante la ejecución de la función y lo manejamos imprimiendo un mensaje de error en la consola y devolviendo un valor predeterminado (<strong>0</strong> en este caso).
+En este ejemplo, envolvemos el código dentro de un bloque try/catch tanto en la función asyncOperation como en la función main. En la función asyncOperation, capturamos cualquier error que se produzca durante la ejecución de la función y lo manejamos imprimiendo un mensaje de error en la consola y devolviendo un valor predeterminado (0 en este caso).
 
-En la función <strong>main</strong>, envolvemos el código dentro de un bloque <strong>try/catch</strong> para capturar cualquier error que se produzca durante la ejecución de las promesas. Si se produce un error, lo manejamos imprimiendo un mensaje de error en la consola.
+En la función main, envolvemos el código dentro de un bloque try/catch para capturar cualquier error que se produzca durante la ejecución de las promesas. Si se produce un error, lo manejamos imprimiendo un mensaje de error en la consola.
 
 Es importante tener en cuenta que, al manejar los errores de esta manera, la ejecución del código no se detendrá si se produce un error en una de las promesas. En su lugar, se manejará el error y se continuará con la ejecución del resto de las promesas.
 
 ### Para usar el código que les comparto, sigue estos pasos:
- - Crea un archivo <strong>TypeScript</strong> con el código que compartí y guárdalo con el nombre que quieras ejemplo <strong>question_5.ts</strong>
- - Crea un archivo <strong>tsconfig.json</strong> con el código que compartí en la misma carpeta que está question_5.ts
- - Abre una terminal en la carpeta donde guardaste el archivo TypeScript y ejecuta el comando <strong>tsc</strong>. Esto compilará el archivo TypeScript y generará un archivo <strong>JavaScript</strong> con el mismo nombre <strong>(question_5.js)</strong>.
- - Puedes ejecutar con <strong>Node.js</strong> usando el comando <strong>node question_5.js</strong>. 
+ - Crea un archivo TypeScript con el código que compartí y guárdalo con el nombre que quieras ejemplo question_5.ts
+ - Crea un archivo tsconfig.json con el código que compartí en la misma carpeta que está question_5.ts
+ - Abre una terminal en la carpeta donde guardaste el archivo TypeScript y ejecuta el comando tsc. Esto compilará el archivo TypeScript y generará un archivo JavaScript con el mismo nombre (question_5.js).
+ - Puedes ejecutar con Node.js usando el comando node question_5.js. 
 
 ## Historia
 Async y Await son estándar desde ECMAScript 8 (2017).
