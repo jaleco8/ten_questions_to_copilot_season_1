@@ -1,4 +1,4 @@
-# 10 PREGUNTAS A GITHUB COPILOT 
+# 10 PREGUNTAS A GITHUB COPILOT
 
 ## TEMPORADA 1
 
@@ -19,12 +19,23 @@
 [Ir a la Pregunta 04](./04%20-%20Pregunta/) - [Código en Java](./04%20-%20Pregunta/question_4.java)
 
 > Esta Pregunta ameritaba que lo vieramos en varios lenguajes
- - [Código en PHP](./04%20-%20Pregunta/question_4.php) 
- - [Código en Phyton](./04%20-%20Pregunta/question_4.py) 
- - [Código en C++](./04%20-%20Pregunta/question_4.cpp) 
- - [Código en Go](./04%20-%20Pregunta/question_4.go) 
+ - [Código en PHP](./04%20-%20Pregunta/question_4.php)
+ - [Código en Phyton](./04%20-%20Pregunta/question_4.py)
+ - [Código en C++](./04%20-%20Pregunta/question_4.cpp)
+ - [Código en Go](./04%20-%20Pregunta/question_4.go)
  - [Código en Node](./04%20-%20Pregunta/question_4.js)
 
- ### [**Pregunta 05**](./05%20-%20Pregunta/) ¿Cómo usar async await con Array.map en TypeScript?
+### [**Pregunta 05**](./05%20-%20Pregunta/) ¿Cómo usar async await con Array.map en TypeScript?
 
 [Ir a la Pregunta 05](./05%20-%20Pregunta/) - [Código en TypeScript](./05%20-%20Pregunta/question_5.ts)
+
+### [**Pregunta 06**](./06%20-%20Pregunta/) Basado en material design crea el css para las siguientes etiquetas: body, h1 h6, div, li, p... primary color #05F26C y secondary color #60BF89
+
+[Ir a la Pregunta 06](./06%20-%20Pregunta/) - [Código en TypeScript](./06%20-%20Pregunta/question_6.css)
+
+> Si consideras útil esta información, apóyalo haciendo "★ Star" en el repositorio. ¡Gracias 🙌!
+
+## Contacto:
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-jaleco8-0a66c2?style=for-the-badge&logo=linkedin&labelColor=%230a66c2&color=%23032342)](https://www.linkedin.com/in/jaleco8/)
+[![Email](https://img.shields.io/badge/ing.jesusleon%40gmail.com-email_personal-0D0D0D?style=for-the-badge&logo=gmail&labelColor=%23F2F2F2&color=%23F21D2F)](mailto:ing.jesusleon@gmail.com)

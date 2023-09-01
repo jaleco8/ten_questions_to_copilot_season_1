@@ -34,6 +34,8 @@ Es importante tener en cuenta que, al manejar los errores de esta manera, la eje
  - Abre una terminal en la carpeta donde guardaste el archivo TypeScript y ejecuta el comando tsc. Esto compilará el archivo TypeScript y generará un archivo JavaScript con el mismo nombre (question_5.js).
  - Puedes ejecutar con Node.js usando el comando node question_5.js. 
 
+> Si consideras útil esta información, apóyalo haciendo "★ Star" en el repositorio. ¡Gracias 🙌!
+
 ## Historia
 Async y Await son estándar desde ECMAScript 8 (2017).
 Await tiene algunos problemas en la versión ECMAScript 8 (2017).

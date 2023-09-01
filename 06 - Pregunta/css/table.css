@@ -1,0 +1,32 @@
+/* Estilos para las tablas */
+table {
+    width: 100%;
+    margin-bottom: 1rem;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+
+th,
+td {
+    padding: 0.75rem;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+th {
+    font-weight: 700;
+}
+
+/* Estilos para las filas de la tabla */
+tr:nth-child(even) {
+    background-color: #f0f0f0;
+}
+
+/* Estilos para el cuerpo de la tabla */
+tbody {
+    background-color: #fff;
+}

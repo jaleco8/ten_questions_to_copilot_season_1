@@ -40,6 +40,8 @@ En esta versión, he creado una función <strong>validateRegex()</strong> que to
 
 En esta versión, he utilizado un objeto <strong>examples</strong> que contiene ejemplos de uso para cada una de las expresiones regulares que deseas validar, y un objeto <strong>regexes</strong> que contiene las expresiones regulares correspondientes. Luego, he utilizado un bucle <strong>for...in</strong> para iterar sobre cada expresión regular y ejemplo de uso, y he utilizado la función <strong>validateRegex()</strong> para validar cada ejemplo de uso con su expresión regular correspondiente. Finalmente, he impreso el resultado de cada validación en la consola.
 
+> Si consideras útil esta información, apóyalo haciendo "★ Star" en el repositorio. ¡Gracias 🙌!
+
 ## Historia
 Las expresiones regulares se originaron en la neurología y la neurobiología en el trabajo de McCulloch en la década de 1930. Más tarde, en la década de 1940, lo que McCulloch y Pitts lograron fue mucho más influyente en ingeniería, ciencias de la computación y matemáticas que en biología o neurociencia. En 1951, el matemático estadounidense Stephen Cole Kleene las introdujo como una notación para definir patrones en lenguajes formales. El trabajo de Kleene también sentó las bases para la ciencia informática teórica. A principios de la década de 1960, surgieron las primeras implementaciones de expresiones regulares. Desde entonces, diferentes sintaxis para escribir expresiones regulares han existido desde la década de 1980, siendo una la sintaxis POSIX y otra ampliamente utilizada siendo la sintaxis Perl.
 

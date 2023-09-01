@@ -1,0 +1,74 @@
+/* Estilos para la línea horizontal */
+hr {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+
+/* Estilos para las listas */
+li {
+    margin-bottom: 0.5rem;
+}
+
+ol,
+ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding-left: 1.25rem;
+}
+
+/* Estilos para los contenedores */
+div {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+/* Estilos para el texto preformateado */
+pre {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    background-color: #0D0D0D;
+    padding: 1rem;
+    overflow-x: auto;
+}
+
+/* Estilos para las citas */
+blockquote {
+    margin: 0;
+    padding: 1rem;
+    border-left: 4px solid var(--primary-color);
+    background-color: #0D0D0D;
+}
+
+/* Estilos para las imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para el encabezado */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+/* Estilos para el contenido principal */
+main {
+    padding: 2rem;
+}
+
+/* Estilos para el pie de página */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: #0D0D0D;
+}

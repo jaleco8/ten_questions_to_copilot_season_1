@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* Colores personalizados */
+:root {
+    --primary-color: #05F26C;
+    --secondary-color: #03A64A;
+    --primary-color-dark: #0D0D0D;
+    --secondary-color-dark: #0D0D0D;
+}
+
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #A2CAB3;
+    background-color: #01260E;
+}
+
+/* Estilos para los encabezados */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1.25rem;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+header h1 {
+    color: #f0f0f0;
+}
+
+/* Estilos para las secciones */
+section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* Estilos para las citas */
+blockquote {
+    margin: 0;
+    padding: 1rem;
+    border-left: 4px solid var(--primary-color);
+    background-color: #0D0D0D;
+}
+
+/* Estilos para los contenedores */
+div {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+/* Estilos para la línea horizontal */
+hr {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+
+/* Estilos para las listas */
+li {
+    margin-bottom: 0.5rem;
+}
+
+ol,
+ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding-left: 1.25rem;
+}
+
+/* Estilos para los párrafos */
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+/* Estilos para el texto preformateado */
+pre {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    background-color: #0D0D0D;
+    padding: 1rem;
+    overflow-x: auto;
+}
+
+/* Estilos para los enlaces */
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--secondary-color);
+}
+
+/* Estilos para el texto pequeño */
+small {
+    font-size: 0.875rem;
+}
+
+/* Estilos para el texto en negrita */
+strong {
+    font-weight: 700;
+}
+
+/* Estilos para las imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para las tablas */
+table {
+    width: 100%;
+    margin-bottom: 1rem;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+
+th,
+td {
+    padding: 0.75rem;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+th {
+    font-weight: 700;
+}
+
+/* Estilos para las filas de la tabla */
+tr:nth-child(even) {
+    background-color: #f0f0f0;
+}
+
+/* Estilos para el cuerpo de la tabla */
+tbody {
+    background-color: #fff;
+}
+
+/* Estilos para el encabezado */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+/* Estilos para la barra de navegación */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0.5rem !important;
+}
+
+nav a {
+    color: #0D0D0D;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: var(--primary-color);
+}
+
+/* Estilos para el contenido principal */
+main {
+    padding: 2rem;
+}
+
+/* Estilos para el pie de página */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: #0D0D0D;
+}
+
+/* Estilos para los botones */
+button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--primary-color);
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+button.secondary {
+    background-color: var(--secondary-color);
+}
+
+button:hover {
+    background-color: var(--primary-color-dark);
+}
+
+button.secondary:hover {
+    background-color: var(--secondary-color-dark);
+}
+
+button:active {
+    background-color: var(--primary-color-darker);
+}
+
+button.secondary:active {
+    background-color: var(--secondary-color-darker);
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+}
+
+button.secondary:focus {
+    box-shadow: 0 0 0 3px rgba(255, 193, 7, 0.5);
+}

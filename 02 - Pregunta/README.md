@@ -19,6 +19,8 @@ Claro, aquí te dejo un pseudocódigo para que puedas implementar el juego en <s
 
 ![](./snippets/gameResult.png)
 
+> Si consideras útil esta información, apóyalo haciendo "★ Star" en el repositorio. ¡Gracias 🙌!
+
 ## Historia
 
 <p>En la Segunda Guerra Mundial el matemático británico Alan Turing había trabajado junto al experto en computación estadounidense Claude Shannon para descifrar los códigos secretos usados por los submarinos alemanes U-Boot. Las ideas de ambos científicos, que ayudaron a establecer las bases de la moderna teoría de la computación, señalaban la inteligencia artificial como el campo más importante hacia el que había que dirigir todos los esfuerzos de investigación. En 1949 Shannon presentó un artículo científico en una convención de Nueva York titulado Programming a Computer for Playing Chess donde presentaba muchas ideas y algoritmos que son utilizados todavía en los programas modernos de ajedrez.nota 2​ Turing, en colaboración con D. G. Champernowne, había escrito ya en 1948 un programa de ajedrez que no pudo ser implementado, puesto que no existía un ordenador con la potencia suficiente para ejecutarlo, pero en 1952 puso a prueba su programa simulando los movimientos de la computadora. El programa perdió una primera partida frente a Alick Glennie, un colega de Turing, pero ganó la segunda frente a la esposa de Champernowne, sentando las bases prácticas de los programas de ajedrez modernos.10​nota 3​</p>

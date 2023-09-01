@@ -36,6 +36,8 @@ Para evitar la inyección SQL en otros lenguajes de programación como PHP, Pyth
 
 ![](./snippets/SQLinjection6.png)
 
+> Si consideras útil esta información, apóyalo haciendo "★ Star" en el repositorio. ¡Gracias 🙌!
+
 ## Historia (La Teoria)
 En los sistemas de gestión de bases de datos (DBMS), una sentencia preparada, sentencia parametrizada o consulta parametrizada es una función en la que la base de datos precompila el código SQL y almacena los resultados, separándolos de los datos. 
 
