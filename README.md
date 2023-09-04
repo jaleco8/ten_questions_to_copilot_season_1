@@ -33,6 +33,10 @@
 
 [Ir a la Pregunta 06](./06%20-%20Pregunta/) - [Código en Css](./06%20-%20Pregunta/question_6.css)
 
+### [**Pregunta 07**](./07%20-%20Pregunta/) Crea un serverless REST API con Funciones en Azure, Node y Azure SQL
+
+[Ir a la Pregunta 07](./07%20-%20Pregunta/) - [Código en Css](./07%20-%20Pregunta/question_7.js)
+
 > Si consideras útil esta información, apóyalo haciendo "★ Star" en el repositorio. ¡Gracias 🙌!
 
 ## Contacto:
