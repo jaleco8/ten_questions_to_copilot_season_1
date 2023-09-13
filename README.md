@@ -43,7 +43,7 @@
 
 ### [**Pregunta 09**](./09%20-%20Pregunta/) /createWorkspace serverless REST APIs en PHP y PostgreSQL con los Modulos Users, Products, Categories y ImagesProduct
 
-[Ir a la Pregunta 09](./09%20-%20Pregunta/serverless-php-postgresql-rest-api)
+[Ir a la Pregunta 09](./09%20-%20Pregunta/) - [Código](./09%20-%20Pregunta/serverless-php-postgresql-rest-api)
 
 > Si consideras útil esta información, apóyalo haciendo "★ Star" en el repositorio. ¡Gracias 🙌!
 
