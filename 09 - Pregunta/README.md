@@ -6,7 +6,9 @@ Claro, aquí tienes una propuesta de estructura de directorios para un proyecto 
 ![](./snippets/workspace1.png)
 
 ### DEMO 
-![https://www.linkedin.com/posts/jaleco8_10preguntasagithubcopilot-github-githubcopilot-activity-7107710139373113345-zPp3?utm_source=share&utm_medium=member_desktop](./snippets/workspace2.png)
+<a href="https://www.linkedin.com/posts/jaleco8_10preguntasagithubcopilot-github-githubcopilot-activity-7107710139373113345-zPp3?utm_source=share&utm_medium=member_desktop" target="blank">
+    <img src="./snippets/workspace2.png">
+</a>
 
 > Si consideras útil esta información, apóyalo haciendo "★ Star" en el repositorio. ¡Gracias!
 
