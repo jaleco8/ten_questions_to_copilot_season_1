@@ -1,0 +1,113 @@
+service: serverless-php-postgresql-rest-api
+
+provider:
+  name: aws
+  runtime: provided.al2
+  region: us-east-1
+  memorySize: 256
+  timeout: 30
+  environment:
+    DB_HOST: ${env:DB_HOST}
+    DB_PORT: ${env:DB_PORT}
+    DB_NAME: ${env:DB_NAME}
+    DB_USER: ${env:DB_USER}
+    DB_PASSWORD: ${env:DB_PASSWORD}
+
+functions:
+  api:
+    handler: src/index.php
+    events:
+      - http:
+          path: /
+          method: any
+      - http:
+          path: /{proxy+}
+          method: any
+
+resources:
+  Resources:
+    ApiGatewayRestApi:
+      Type: AWS::ApiGateway::RestApi
+      Properties:
+        Name: ${self:service}
+        Description: API Gateway for ${self:service}
+    ApiGatewayDeployment:
+      Type: AWS::ApiGateway::Deployment
+      DependsOn: ApiGatewayMethod
+      Properties:
+        RestApiId:
+          Ref: ApiGatewayRestApi
+        StageName: prod
+    ApiGatewayMethod:
+      Type: AWS::ApiGateway::Method
+      Properties:
+        HttpMethod: ANY
+        ResourceId:
+          Fn::GetAtt:
+            - ApiGatewayRestApi
+            - RootResourceId
+        RestApiId:
+          Ref: ApiGatewayRestApi
+        AuthorizationType: NONE
+        Integration:
+          IntegrationHttpMethod: POST
+          Type: AWS_PROXY
+          Uri:
+            Fn::Sub: arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${ApiLambdaFunction.Arn}/invocations
+    ApiLambdaFunction:
+      Type: AWS::Lambda::Function
+      Properties:
+        Code:
+          ZipFile: |
+            <?php
+            require __DIR__ . '/vendor/autoload.php';
+            $app = new \Slim\App();
+            require __DIR__ . '/src/routes/categories.php';
+            require __DIR__ . '/src/routes/images_product.php';
+            require __DIR__ . '/src/routes/products.php';
+            require __DIR__ . '/src/routes/users.php';
+            $app->run();
+          Handler: index.php
+          Runtime: provided.al2
+          MemorySize: 256
+          Timeout: 30
+          Environment:
+            Variables:
+              DB_HOST: ${env:DB_HOST}
+              DB_PORT: ${env:DB_PORT}
+              DB_NAME: ${env:DB_NAME}
+              DB_USER: ${env:DB_USER}
+              DB_PASSWORD: ${env:DB_PASSWORD}
+          Role: arn:aws:iam::123456789012:role/lambda-role
+      DependsOn: ApiLambdaFunctionExecutionRole
+    ApiLambdaFunctionExecutionRole:
+      Type: AWS::IAM::Role
+      Properties:
+        AssumeRolePolicyDocument:
+          Version: '2012-10-17'
+          Statement:
+            - Effect: Allow
+              Principal:
+                Service: lambda.amazonaws.com
+              Action: sts:AssumeRole
+        Path: /
+        Policies:
+          - PolicyName: lambda-policy
+            PolicyDocument:
+              Version: '2012-10-17'
+              Statement:
+                - Effect: Allow
+                  Action:
+                    - logs:CreateLogGroup
+                    - logs:CreateLogStream
+                    - logs:PutLogEvents
+                  Resource: arn:aws:logs:*:*:*
+                - Effect: Allow
+                  Action:
+                    - rds-db:connect
+                  Resource: arn:aws:rds-db:us-east-1:123456789012:dbuser:my-db-instance/my-db-user
+                - Effect: Allow
+                  Action:
+                    - rds-data:ExecuteStatement
+                    - rds-data:BatchExecuteStatement
+                  Resource: arn:aws:rds-data:us-east-1:123456789012:database:my-db-instance
