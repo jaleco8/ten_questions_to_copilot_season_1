@@ -1,4 +1,4 @@
-# Programa funciones en Dart donde se establezcan los siguientes calculos entre fechas: Días transcurridos entre dos fechas, Meses transcurridos entre dos fechas, Años transcurridos entre dos fechas, Semanas transcurridas entre dos fechas, Horas transcurridas entre dos fechas
+# /createWorkspace serverless REST APIs en PHP y PostgreSQL con los Modulos Users, Products, Categories y ImagesProduct
 
 ## GitHub Copilot
 Claro, aquí tienes una propuesta de estructura de directorios para un proyecto de API REST sin servidor en PHP y PostgreSQL con módulos para Usuarios, Productos, Categorías e ImagesProduct:
