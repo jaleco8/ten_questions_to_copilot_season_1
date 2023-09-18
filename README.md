@@ -45,7 +45,7 @@
 
 [Ir a la Pregunta 09](./09%20-%20Pregunta/) - [Código](./09%20-%20Pregunta/serverless-php-postgresql-rest-api)
 
-### [**Pregunta 10**](./10%20-%20Pregunta/) /crea un programa en phyton que se conecte a la web https://www.bcv.org.ve/tasas-informativas-sistema-bancario e imprima únicamente el tipo de cambio en dolar ejemplo: 33,66810000
+### [**Pregunta 10**](./10%20-%20Pregunta/) /crea un programa en phyton que se conecte a la web bcv.org.ve e imprima únicamente el tipo de cambio en dolar ejemplo: 33,66810000
 
 [Ir a la Pregunta 10](./10%20-%20Pregunta/) - [Código en Python](./10%20-%20Pregunta/question_10.py)
 
